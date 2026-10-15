@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Large downloaded / cached inputs (re-fetch with scripts/00_fetch.sh; checksums in data/SHA256SUMS)
+data/metadata.json
+data/zarrsweep_full_sweep.json
